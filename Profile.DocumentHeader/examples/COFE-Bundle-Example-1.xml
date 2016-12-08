@@ -270,7 +270,7 @@
 					</managingOrganization>
 					<role>
 						<coding>
-							<system value="http://fhir.nhs.net/ValueSet/sds-job-role-name-1"/>
+							<system value="http://fhir.nhs.net/ValueSet/job-role-name-1"/>
 							<code value="NR0700"/>
 							<display value="Community Nurse"/>
 						</coding>
@@ -288,7 +288,7 @@
 					<!--Identifies the profile being used-->
 					<profile value="http://fhir.nhs.net/StructureDefinition/cofe-organization-1"/>
 				</meta>
-				<!--Organisation identifier -->
+				<!--Organization identifier -->
 				<identifier>
 					<system value="http://fhir.nhs.net/Id/sds-identifier"/>
 					<value value="GP123456"/>
@@ -416,7 +416,7 @@
 					</telecom>
 				</contact>
 				<careProvider>
-					<reference value="Organisation/f9f24f89-646b-4a19-a6b1-cabfa3b612e1"/>
+					<reference value="Organization/f9f24f89-646b-4a19-a6b1-cabfa3b612e1"/>
 				</careProvider>
 			</Patient>
 		</resource>
@@ -444,7 +444,7 @@
 					</managingOrganization>
 					<role>
 						<coding>
-							<system value="http://fhir.nhs.net/ValueSet/sds-job-role-name-1"/>
+							<system value="http://fhir.nhs.net/ValueSet/job-role-name-1"/>
 							<code value="NR0110"/>
 							<display value="Specialist Registrar"/>
 						</coding>
@@ -540,7 +540,7 @@
 					<!--Identifies the profile being used-->
 					<profile value="http://fhir.nhs.net/StructureDefinition/cofe-organization-1"/>
 				</meta>
-				<!--Organisation identifier -->
+				<!--Organization identifier -->
 				<identifier>
 					<system value="http://fhir.nhs.net/Id/ods-organization-code"/>
 					<value value="RY6"/>
@@ -609,7 +609,7 @@
 					<!--Identifies the profile being used-->
 					<profile value="http://fhir.nhs.net/StructureDefinition/cofe-organization-1"/>
 				</meta>
-				<!--Organisation identifier -->
+				<!--Organization identifier -->
 				<identifier>
 					<system value="http://fhir.nhs.net/Id/sds-identifier"/>
 					<value value="A1A"/>
