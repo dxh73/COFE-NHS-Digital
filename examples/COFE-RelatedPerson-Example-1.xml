@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This example message is provided for illustrative purposes only. It has had no clinical validation. Where there are conflicts with the written message specification or schema, the specification or schema shall be considered to take precedence-->
+<RelatedPerson xmlns="http://hl7.org/fhir" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../Schemas/relatedperson.xsd">
+	<id value="f87f785b-e376-4a97-9397-64196bf00425"/>
+	<meta>
+		<profile value="http://fhir.nhs.net/StructureDefinition/cofe-relatedperson-1"/>
+	</meta>
+	<patient>
+		<reference value="Patient/31686b67-9f20-4644-9a54-193d2f91de57"/>
+	</patient>
+	<relationship>
+		<coding>
+			<system value="http://hl7.org/fhir/ValueSet/relatedperson-relationshiptype"/>
+			<code value="ONESELF"/>
+			<display value="self"/>
+		</coding>
+	</relationship>
+	<name>
+		<family value="Smith"/>
+		<given value="Richard"/>
+		<prefix value="Mr"/>
+	</name>
+	<telecom>
+		<system value="phone"/>
+		<value value="0712345678"/>
+		<use value="mobile"/>
+	</telecom>
+</RelatedPerson>
