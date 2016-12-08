@@ -155,7 +155,6 @@
 						<br/>
 					</div>
 				</text>
-	
 <!--****Extensions added here. Must be after text tags in order to validate****-->
 <!--Nurse-->
 	<extension url="http://fhir.nhs.net/StructureDefinition/extension-cofe-information-recipient-1">
@@ -169,21 +168,18 @@
 			<reference value="Practitioner/5e414a77-d394-4248-a631-00e45ddb64a0"/>
 		</valueReference>
 	</extension>		
-	
 				<!--Information Recipient Extension - MGP Medical Centre-->
 	<extension url="http://fhir.nhs.net/StructureDefinition/extension-cofe-information-recipient-1">
 		<valueReference>
 			<reference value="Organization/f9f24f89-646b-4a19-a6b1-cabfa3b612e1"/>
 		</valueReference>
 	</extension>				
-	
 	<!--Related Person-  to self-->
 				<extension url="http://fhir.nhs.net/StructureDefinition/extension-cofe-related-person-1">
 				<valueReference>
 					<reference value="RelatedPerson/f87f785b-e376-4a97-9397-64196bf00425"/>
 				</valueReference>
 				</extension>
-				
 	<identifier>
 		<value id="2b5d459b-df79-4a2b-9b0c-95b2a7ee2ca4"/>
 	</identifier>
