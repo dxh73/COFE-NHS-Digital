@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Composition xmlns="http://hl7.org/fhir" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../Schemas/composition.xsd">
+	<id value="fa2a75a7-4257-422d-92a4-cf537f078e13"/>
+	<meta>
+		<profile value="http://fhir.nhs.net/StructureDefinition/cofe-cda-header-composition-1"/>
+	</meta>
+	<text>
+					<status value="generated"/>
+					<div xmlns="http://www.w3.org/1999/xhtml">
+					<table width="100%" border="1" style="background-color: #ffffee" >
+					<tr>
+					
+						<td>
+						<p style="font-size:20px">
+							<b>Patient Care Record - SMITH, Richard (Mr)</b>
+						</p>
+						<p style="color:red;font-size:20px">
+							<b>NHS Number (Verified) - 135 246 5790</b>
+						</p>
+						<p style="font-size:16px">
+							<b>Date of Birth:</b> 01-Jan-1957</p>
+							<p style="font-size:20px">
+							<b>Male</b>
+						</p>
+						<table width="60%">
+							<tbody align="left">
+								<tr>
+									<td style="width:20%">
+										<i>Home Address</i>
+									</td>
+								</tr>
+								<tr>
+									<td style="width:33%;font-weight:bold">21 Grove Street<br/>Overtown<br/>West Yorkshire<br/>LS21 1PF</td>
+								</tr>
+							</tbody>
+						</table>
+						<p><i>GP Practice</i></p>
+						<p><b>MGP Medical Centre</b></p>
+<table style="color:#000000; background-color:#ffffee" width="40%" border="0">
+	<tbody>
+		<tr>
+			<td style="width:40%">Address</td>
+			<td style="width:10%"><i>Phone</i></td>
+			<td style="width:10%"><b>01634111222</b></td>
+		</tr>
+	</tbody>
+</table>						
+						
+					<table style="color:#000000; background-color:#ffffee" width="40%" border="0">
+								<tbody>
+									
+									<tr>
+										<td style="width:40%;font-weight:bold">120 Grove Street<br/>Overtown<br/>West Yorkshire<br/>LS21 1PT</td>
+										<td style="width:10%"><i>Email</i></td>
+										<td style="width:10%"><b>jlorenzo@MMC.co.uk</b></td>
+									</tr>
+								</tbody>
+							</table>			
+										
+										<table width="100%">
+											<tbody align="left">
+												<tr>
+													<td style="width:50%">
+														<p style="font-style:italic;font-weight: normal">GP Practice Code</p>
+													</td>
+												</tr>
+												<tr>
+													<td style="width:50%;font-weight:bold">F84641</td>
+												</tr>
+											</tbody>
+										</table>
+						<br/>
+					</td>
+					</tr>
+						</table>
+				<br/>
+				<table width="100%" border="1" style="background-color: #ffffee" >
+							<tr>
+								<td>
+									<p style="font-size:16px">
+										Document Created:<b> 17-Feb-2015, 10:00</b></p>
+									<p style="font-size:16px">
+										Document Owner:<b>XYZ NHS trust</b></p>
+									<p style="font-size:16px">
+										Authored by:<b>XYZ Hospital on 14-Feb-2015, 09:00</b></p>
+								</td>
+							</tr>
+						</table>
+						<br/>
+						
+						 <table width="100%" border="1" style="background-color: #eeeeff">
+            <tr>
+            <td>
+									<p style="font-size:16px">
+										Encounter Type:<b> Emergency department patient visit</b></p>
+									<p style="font-size:16px">
+										Encounter Time:<b> 12-Feb-2015, 09:00 to 16-Feb-2015, 09:00</b></p>
+									<p style="font-size:16px">
+										Encounter Disposition:<b> Discharge to home</b></p>
+									<p style="font-size:16px">
+										Care Setting Type:<b> Accident and Emergency department</b></p>
+								</td>
+            </tr>
+         </table>
+         <br/>
+  
+		<table width="100%" border="1" style="background-color: #ffffee" >
+			<tbody>
+				<tr>
+<td>
+									
+								
+          <table width="45%" border="0" style="background-color: #ffffee" >
+            <tbody>
+               <tr>
+                  <td style="width:33%;font-weight:bold">Other participant(s) in this document</td>
+               </tr>
+            <tr>
+               <td style="width:33%;font-weight:bold">Participant</td>
+            </tr>
+            <tr>
+               <td>
+               <p style="font-size:16px">Participant Name<b> Dr John Lorenzo</b></p>
+               </td>
+            </tr>
+               <tr>
+												<td style="width:20%">
+													<i>Work Address</i>
+												</td>
+												<td style="width:20%">
+													<p><i>Work Phone </i><b>01634111222</b></p>
+												</td>
+												<td style="width:20%">
+													<i></i>
+												</td>
+											</tr>
+											<tr>
+												<td style="width:33%;font-weight:bold">1 MGP House<br/>Overtown<br/>Leeds<br/>West Yorkshire<br/>LS21 7PA</td>
+											</tr>
+								
+            <tr>
+            <td>
+             <p style="width:33%;font-weight:bold">Referred By</p>
+            <p style="font-size:16px">Referrer Name<b> Mr Richard Smith - Self</b></p>
+               </td>
+            </tr>
+            </tbody>
+         </table>
+         </td>
+		</tr>
+			</tbody>
+		</table>
+						<p style="font-size:18px">
+						Sections would follow here</p>
+						<br/>
+					</div>
+				</text>
+<!--****Extensions added here. Must be after text tags in order to validate****-->
+<!--Nurse-->
+	<extension url="http://fhir.nhs.net/StructureDefinition/extension-cofe-information-recipient-1">
+		<valueReference>
+			<reference value="Practitioner/8ece9986-9af0-4882-b0cf-23a96ea7b509"/>
+		</valueReference>
+	</extension>		
+<!--Primary Care Physician. Should have been a participant but DMS does not support doc participant universal-->
+		<extension url="http://fhir.nhs.net/StructureDefinition/extension-cofe-information-recipient-1">
+		<valueReference>
+			<reference value="Practitioner/5e414a77-d394-4248-a631-00e45ddb64a0"/>
+		</valueReference>
+	</extension>		
+				<!--Information Recipient Extension - MGP Medical Centre-->
+	<extension url="http://fhir.nhs.net/StructureDefinition/extension-cofe-information-recipient-1">
+		<valueReference>
+			<reference value="Organization/f9f24f89-646b-4a19-a6b1-cabfa3b612e1"/>
+		</valueReference>
+	</extension>				
+	<!--Related Person-  to self-->
+				<extension url="http://fhir.nhs.net/StructureDefinition/extension-cofe-related-person-1">
+				<valueReference>
+					<reference value="RelatedPerson/f87f785b-e376-4a97-9397-64196bf00425"/>
+				</valueReference>
+				</extension>
+	<identifier>
+		<value id="2b5d459b-df79-4a2b-9b0c-95b2a7ee2ca4"/>
+	</identifier>
+	<date value="2015-02-17T10:00:00+00:00"/>
+	<type>
+		<coding>
+			<system value="http://snomed.info/sct"/>
+			<code value="810301000000103:810311000000101=373942005,810321000000107=394576009"/>
+			<display value="810301000000103|Clinical document descriptor|:810311000000101|Type of clinical document|=373942005|Discharge summary|,810321000000107|Care setting of clinical document|=394576009|Accident and emergency"/>
+		</coding>
+	</type>
+	<title value="Discharge summary"/>
+	<status value="final"/>
+	<confidentiality value="V"/>
+	<subject>
+		<reference value="Patient/31686b67-9f20-4644-9a54-193d2f91de57"/>
+		<display value="Mr Richard Smith"/>
+	</subject>
+	<author>
+		<reference value="Practitioner/9ff4a692-c1d7-4dd6-9e0b-f44e77348faf"/>
+		<display value="SR1701 - XYZ Hospital"/>
+	</author>
+	<custodian>
+		<reference value="Organization/1474506e-609d-412e-952b-4bc74d769038"/>
+		<display value="XYZ NHS Trust"/>
+	</custodian>
+	<encounter>
+		<reference value="Encounter/4f36b35a-ad18-4ea9-a3fb-c893f709e88a"/>
+		<display value="Emergency department patient visit"/>
+	</encounter>
+	
+	
+</Composition>
